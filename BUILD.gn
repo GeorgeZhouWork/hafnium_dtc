@@ -23,6 +23,8 @@ source_set("libfdt") {
     "libfdt/fdt_ro.c",
     "libfdt/fdt_rw.c",
     "libfdt/fdt_wip.c",
+    "libfdt/fdtdump.c",
+    "libfdt/util.c",
   ]
 
   # Add config to targets which directly depend on this one, not recursively.

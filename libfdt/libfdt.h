@@ -2068,4 +2068,6 @@ int fdt_overlay_apply(void *fdt, void *fdto);
 
 const char *fdt_strerror(int errval);
 
+void dump_blob(void *blob, bool debug);
+
 #endif /* LIBFDT_H */
